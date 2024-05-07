@@ -5,8 +5,7 @@
 int main()
 {
 
-int a = 5;
-int b = 2;
+int a = 5, b=2; //si puo' scrivere anche così invece di andare a capo
 float c = 2.123456;
 float d = 2.098765;
 double e = 2.123456789012345;

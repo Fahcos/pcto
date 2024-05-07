@@ -9,8 +9,8 @@ int main()
 
     a = 65;
     printf("a: %d\n", a); //identificazione per int: %d
-    printf("b: %f\n", b); 
-    printf("c: %lf\n", c);
+    printf("b: %f\n", b); //identificazione per float:%f
+    printf("c: %lf\n", c);//identificazione per double:%lf
     printf("a: %c\n", a); //valori ascii
     printf("a: %d\na: %d\n", a, a); //per stampare 2 volte la stessa variabile la riscrivo(vale anche oer 2 variabili diverse)
     
