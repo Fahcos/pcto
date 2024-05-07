@@ -9,6 +9,19 @@ int main()
     if (a+b>c && a+c>b && b+c>a)
     {
         printf("Sì è un triangolo\n");
+        if ((a==b && b!=c)||(a==c && c!=b)||(b==c && c!=a))
+        {
+            printf("Triangolo isoscele\n");
+        }
+        else if (a==b && b==c)
+        {
+            printf("Triangolo equilatero\n");
+        }
+        else
+        {
+            printf("Triangolo scaleno\n");
+        }
+        
     }
     else 
     {
