@@ -2,18 +2,26 @@
 #include <unistd.h>
 int main()
 {
-    int n;
-    int a;
-    int c=0;
-    a=n-1;
+    int num, div, c;
+    c=0;
     sleep(1);
-    printf("Scegli un numero:\n");
-    scanf("%d", &n);
-    while(n/a)
+    printf("Inserisci un numero\n");
+    scanf("%d", &num);
+    div=num-1;
+    while(div>1)
     {
-        if (n%a == 0)
+        if(num%div==0)
         {
             c=c+1;
         }
+        div=div-1;
+    }
+    if(c==0 && num>1)
+    {
+        printf("Il tuo numero è primo\n");
+    }
+    else
+    {
+        printf("Il tuo numero non è primo\n");
     }
 }
