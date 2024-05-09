@@ -676,7 +676,9 @@ int main()
                 scanf("%d", &f);
                 if (f==2)
                 {
-                
+                    sleep(2);
+                    printf("Mi perdo nella disperazione.\n");
+                    printf("GAME OVER\n");
                 }
                 else if (f==1)
                 {
