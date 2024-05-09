@@ -15,5 +15,4 @@ int main()
         usleep(100000);
         i++;
     }
-    
 }
