@@ -438,7 +438,7 @@ int main()
                     scanf("%d", &f);
                     if (f==2)
                     {
-                
+
                     }
                     else if (f==1)
                     {
@@ -469,7 +469,7 @@ int main()
 
                         }
                         sleep(2);
-                        printf("Più mi avvicino più inizio a sentire una sensazione strana,\n");
+                        printf("Più mi avvicino più inizio a sentire una sensazione strana, ");
                         sleep(2);
                         printf("come se conoscessi la persona davanti a me\n");
                         sleep(3);
